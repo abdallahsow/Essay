@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://codewars.com"
+          href="https://scrimba.com"
           target="_blank"
           rel="noopener noreferrer"
         >
