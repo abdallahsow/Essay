@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Enjoy coding your future
+          Code your future
         </p>
         <a
           className="App-link"
-          href="https://scrimba.com"
+          href="https://lokum.tech"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Start Here 
+          Learn Here 
         </a>
       </header>
     </div>
