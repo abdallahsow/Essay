@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Code your future
+          Start coding your future
         </p>
         <a
           className="App-link"
@@ -16,7 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
 
-          Learn Here 
+          It starts here 
         </a>
       </header>
     </div>
