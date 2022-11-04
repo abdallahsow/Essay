@@ -1,8 +1,7 @@
 import Head from "next/head";
-import styles from "../styles/Articles.module.css"
+import ArticleList from "../components/ArticleList";
 
-export default function Home({articles}) {
-  console.log(articles)
+export default function Home({ articles }) {
   return (
     <div>
       <Head>
@@ -10,9 +9,7 @@ export default function Home({articles}) {
         <meta name="keywords" content="web development, programming" />
       </Head>
 
-      <main>
-        {articles.map(article => <h3 className={styles.card}>{article.title}</h3>)}
-      </main>
+      <ArticleList articles={articles} />
     </div>
   );
 }
@@ -24,7 +21,7 @@ export const getStaticProps = async () => {
   const articles = await res.json();
   return {
     props: {
-      articles
-    }
-  }
+      articles,
+    },
+  };
 };
